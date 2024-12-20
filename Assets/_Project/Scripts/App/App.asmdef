@@ -1,0 +1,28 @@
+{
+    "name": "App",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:593a5b492d29ac6448b1ebf7f035ef33",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d1b9bb5a4a49e1a4c931fb112b03d179",
+        "GUID:f484620ca873c1c408bc94bb56b0ae31",
+        "GUID:4245eb9b7ee378241898eacf32377e66",
+        "GUID:80ecb87cae9c44d19824e70ea7229748",
+        "GUID:5fe4e32cb59846be976e75300ef6a719",
+        "GUID:162613cff637c684fb0bf863420e1355",
+        "GUID:fd517a24896066444ad5fe407bf924e6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

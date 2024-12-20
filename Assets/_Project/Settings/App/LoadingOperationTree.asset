@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e870ec371458e4dbc5a8f6ec6f9f82, type: 3}
+  m_Name: LoadingOperationTree
+  m_EditorClassIdentifier: 
+  _root:
+    rid: 3245237609804857344
+  references:
+    version: 2
+    RefIds:
+    - rid: 3245237609804857344
+      type: {class: SequenceOperation/Asset, ns: LoadingTree, asm: LoadingTree}
+      data:
+        _weight: 1
+        _chidren:
+        - rid: 3245237609804857345
+        - rid: 3245237609804857348
+        - rid: 3245237609804857349
+    - rid: 3245237609804857345
+      type: {class: ParallelOperation/Asset, ns: LoadingTree, asm: LoadingTree}
+      data:
+        _weight: 80
+        _children:
+        - rid: 3245237609804857346
+        - rid: 3245237609804857347
+    - rid: 3245237609804857346
+      type: {class: LoadSceneOperation/Asset, ns: App, asm: App}
+      data: 
+    - rid: 3245237609804857347
+      type: {class: LoadPoolPrefabsOperation/Asset, ns: App, asm: App}
+      data: 
+    - rid: 3245237609804857348
+      type: {class: LoadSceneContextOperation/Asset, ns: App, asm: App}
+      data: 
+    - rid: 3245237609804857349
+      type: {class: StartGameOperation/Asset, ns: App, asm: App}
+      data: 
